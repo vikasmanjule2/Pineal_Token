@@ -414,11 +414,11 @@ var lang = usrlang;
 <link href="pricing.css" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 </head>
+<!-- 
 
-
-    <!--********************Nav Bar******************************-->
+    ********************Nav Bar******************************
 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent">
- <!-- <a class="navbar-brand" href="#">Navbar</a>-->
+  <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -480,7 +480,7 @@ var lang = usrlang;
 
 
   </div>
-</nav>
+</nav> -->
 <!--********************Nav Bar******************************-->
 
 
@@ -489,7 +489,7 @@ var lang = usrlang;
 
 	<header class="d-flex flex-column flex-md-row align-items-center text-dark p-3 px-md-4 mb-3 bg-white  shadow-sm">
 		<img class="m-3" src="img/logo.png">
-		<p class="h5 my-0 me-md-auto fw-normal lang"    key="SetTitle" >Token Factory-Issuing your own token on the Ethereum/ETH-like with One-Click</p>
+		<p class="h5 my-0 me-md-auto fw-normal lang"    key="SetTitle" >Pineal-Issuing your own token on the Ethereum/ETH-like</p>
 
 
 		<ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -603,7 +603,7 @@ aria-labelledby="userDropdown">
 				<div class=" ">  
 
 
-					<div id="FixedDes" class="alert alert-primary lang" role="alert"  key="FixedDesKey"> You can issue a fixed amount of erc20 tokens with one-click。</div>
+					<!-- <div id="FixedDes" class="alert alert-primary lang" role="alert"  key="FixedDesKey"> You can issue a fixed amount of erc20 tokens with one-click。</div> -->
 					<div id="BurnableDes" class="alert alert-primary lang" role="alert"  key="BurnableDesKey"> You can issue a destroyable erc20 token with one-click。</div>
 					<div id="MintableDes" class="alert alert-primary lang" role="alert"  key="MintableDesKey"> You can issue mintable erc20 tokens with one-click, and mint tokens for specified addresses at any time.</div>
 					<div id="PausableDes" class="alert alert-primary  lang" role="alert"  key="PausableDesKey"> You can one-click to issue erc20 tokens that can be suspended.</div>
@@ -630,10 +630,14 @@ aria-labelledby="userDropdown">
 						<label for="exampleSelect1"  class="lang" key="typeOfToken">Type OF Token</label>
 
 
-						<select  id = "SelectIWant" class="form-control" name="state" onchange="IWantChange( )">
+						<!-- <select  id = "SelectIWant" class="form-control" name="state" onchange="IWantChange( )">
 
-						</select>
-
+						</select> -->
+               	<!-- <select  id = "SelectIWant" class="form-control" name="state" >
+					
+						</select> -->
+<!-- Replace the <select> element with a disabled input field -->
+	<input type="text" id="SelectIWant" class="form-control" name="state" value="Fix Token" disabled>
 
 <!--
     <select class="form-control" id="SelectTokenType">
@@ -802,7 +806,7 @@ aria-labelledby="userDropdown">
                 <div class="col-4">
                     <h5> </h5>
                     <ul class="nav flex-column">
-<li class="nav-item mb-2"><a href="https://dapp404.com/Token-Factory" class="nav-link p-0 text-dark ">Token Factory</a></li>
+<li class="nav-item mb-2"><a href="https://dapp404.com/Token-Factory" class="nav-link p-0 text-dark ">Create Pineal Token</a></li>
 <li class="nav-item mb-2"><a href="https://dapp404.com/Bee-Sender/" class="nav-link p-0 text-dark ">Bee Sender</a></li>
 <li class="nav-item mb-2"><a href="https://dapp404.com/Blockchain-To-Metamask/" class="nav-link p-0  text-dark">Chain List</a></li>
 
